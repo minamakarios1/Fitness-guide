@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodybuilding - La tua guida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Powerlifting: il regno della forza assoluta</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bodybuilding.html">Bodybuilding</a></li>
+            <li><a href="powerlifting.html">Powerlifting</a></li>
+            <li><a href="weightlifting.html">Weightlifting</a></li>
+            <li><a href="powerbuilding.html">Powerbuilding</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <p>
+                Il <strong>powerlifting</strong> è uno sport basato sulla <strong>forza massimale</strong>. L'obiettivo principale è sollevare il massimo peso possibile nei tre esercizi fondamentali di forza: lo <strong>squat</strong>, la <strong>panca piana</strong> e il <strong>deadlift</strong> (stacco da terra). 
+                A differenza del bodybuilding, qui Non importa come appari, ciò che conta è quanto peso riesci a spaccare. 
+                È una disciplina che misura il tuo potenziale fisico e mentale, sfidandoti a superare i tuoi limiti ad ogni allenamento e competizione.
+            </p>
+            <p>
+                Questo sport è praticato da persone che vogliono sviluppare forza assoluta. Durante le gare, ogni atleta ha a disposizione tre tentativi per ciascun esercizio, cercando di raggiungere il massimo carico sollevabile, spesso puntando a stabilire un nuovo <strong>PR (Personal Record)</strong>. 
+                La somma del miglior peso sollevato in ciascun esercizio costituisce il <strong>totale</strong>, che determina la posizione in classifica.
+            </p>
+        </section>
+        <section>
+            <h2>Un Mondo di Forza e Dedizione</h2>
+            <p>
+                Il powerlifting è considerato il "regno della forza assoluta", dove non ci sono fronzoli e tutto ruota attorno al miglioramento continuo del proprio massimale nelle tre alzate fondamentali. Questo sport non è focalizzato sull'aspetto fisico, ma sulla potenza e sulla tecnica. I powerlifters spesso non hanno fisici scolpiti o particolarmente muscolosi, ma sono in grado di sollevare pesi scioccanti. Non importa quanto sei "sportivo" a vedersi, ciò che conta è la forza che riesci a esprimere. È una disciplina che accoglie chiunque voglia scoprire cosa significa davvero essere forte, indipendentemente dall'età o dal livello di esperienza. Forza, tecnica e dedizione sono le chiavi per superare i propri limiti e raggiungere risultati straordinari.
+            </p>
+        </section>
+        
+        </section>
+        <section>
+            <h2>Le Tre Alzate Fondamentali</h2>
+            <div class="three-images-row">
+                <figure>
+                    <img src="images/squat.png" alt="Squat">
+                    <figcaption>Lo squat: il re degli esercizi per la forza nelle gambe.</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://media.istockphoto.com/id/1178817852/it/foto/sollevatore-di-pesi-uomo-in-palestra.jpg?s=2048x2048&w=is&k=20&c=9tfxFIZdA5jtqyBjkT4SFUQ4m9TOQEeJcNapvHcQtr4=" alt="Panca piana">
+                    <figcaption>La panca piana: massima potenza per petto e braccia.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/deadlift.jpg" alt="Stacco da terra">
+                    <figcaption>Lo stacco da terra: la prova di forza totale.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="navigation-buttons">
+            <a href="bodybuilding.html" class="btn">← Pagina precedente</a>
+            <a href="weightlifting.html" class="btn">Pagina successiva →</a>
+        </section>
+
+        </main>
+        <footer>
+            <p>&copy; 2025 - Il tuo sito sul fitness</p>
+        </footer>
+        <script>
+            const currentLocation = window.location.pathname.split("/").pop(); 
+            const navLinks = document.querySelectorAll("nav ul li a");
+        
+            navLinks.forEach(link => {
+                if (link.getAttribute("href") === currentLocation) {
+                    link.classList.add("active");
+                }
+            });
+        </script>
+        
+        </body>
+        

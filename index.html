@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerbuilding e Sport</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" id="cookiebanner" src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
+</head>
+<body>
+    <script src="https://www.gdprset.it/widget/gdpr-it-1.js" type="text/javascript"></script>
+    <header>
+        <h1>Benvenuti nel mondo del fitness!</h1>
+        <p1>Scopri il mondo del Powerbuilding e altro ancora</p1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bodybuilding.html">Bodybuilding</a></li>
+            <li><a href="powerlifting.html">Powerlifting</a></li>
+            <li><a href="weightlifting.html">Weightlifting</a></li>
+            <li><a href="powerbuilding.html">Powerbuilding</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <h2>Chi sono</h2>
+
+        <img src="images/mia_foto.JPG" width="360" height="450" alt="Una mia foto">
+        
+
+
+        <p>
+            Ciao, mi chiamo Mina Makarios, sono un appassionato di fitness e un atleta powerbuilder.<br> 
+            Sei mai entrato in una palestra e ti sei chiesto: "Ma quanto spacca quella persona?" oppure "Come può quel tipo, così muscoloso, non sollevare pesi incredibili?" 
+            Oppure, hai mai visto qualcuno apparentemente meno muscoloso che solleva carichi che ti fanno rimanere a bocca aperta?
+        </p>
+        <p>
+            La verità è che non tutti quelli che vanno in palestra hanno gli stessi obiettivi. Alcuni cercano di costruire un fisico impressionante, altri si concentrano 
+            sulla forza pura, e altri ancora cercano di bilanciare entrambe le cose. Esistono molti tipi di forza e numerosi sport, ma in questo sito parleremo 
+            principalmente di <strong>bodybuilding</strong>, <strong>powerlifting</strong> e <strong>weightlifting</strong>, perché sono discipline che si praticano in palestra 
+            e che prevedono l'uso dei pesi. È importante ricordare che muscoli grandi non significano necessariamente muscoli forti: forza ed estetica seguono logiche diverse, 
+            e ognuno di questi sport ha i suoi obiettivi, metodi e una filosofia unica.
+        </p>
+        
+        <p>
+            In questo sito ti aiuterò a capire le differenze tra questi sport e a scegliere quello che fa per te. Inoltre, esploreremo il 
+            <strong>powerbuilding</strong>, un mix perfetto tra forza ed estetica, per chi cerca un equilibrio tra questi due aspetti.
+        </p>
+        <p>
+            Alla fine, cosa significa davvero "essere forti"? La forza non è solo quanto peso riesci a sollevare, ma anche una combinazione di tecnica, determinazione e perseveranza. 
+            Sei pronto a scoprire il mondo del fitness e trovare la strada giusta per te? Partiamo!
+        </p>
+        
+        <p>
+            Ricorda che indipendentemente dalla strada che scegli – che sia il bodybuilding, il powerlifting, il weightlifting o semplicemente uno sport all’aperto – 
+            l'importante è allenarsi e muoversi. L’attività fisica, qualunque essa sia, offre una lunga lista di benefici: migliora la salute cardiovascolare, 
+            rafforza i muscoli e le ossa, riduce lo stress e aumenta il livello di energia. Non bisogna per forza frequentare una palestra per godere di questi vantaggi; 
+            anche una passeggiata, una partita di calcio con gli amici o una sessione di yoga possono fare la differenza.
+        </p>
+        
+        
+        <section class="navigation-buttons">
+            <a href="bodybuilding.html" class="btn">Pagina successiva →</a>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 - Il tuo sito sul fitness</p>
+    </footer>
+    <script>
+        const currentLocation = window.location.pathname.split("/").pop(); // Ottieni il nome del file attuale
+        const navLinks = document.querySelectorAll("nav ul li a");
+    
+        navLinks.forEach(link => {
+            if (link.getAttribute("href") === currentLocation) {
+                link.classList.add("active");
+            }
+        });
+    </script>
+    
+</body>
+</html>

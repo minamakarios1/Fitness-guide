@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerbuilding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Powerbuilding: La Fusione tra Forza ed Estetica</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bodybuilding.html">Bodybuilding</a></li>
+            <li><a href="powerlifting.html">Powerlifting</a></li>
+            <li><a href="weightlifting.html">Weightlifting</a></li>
+            <li><a href="powerbuilding.html">Powerbuilding</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <p>
+                Il <strong>powerbuilding</strong> è un approccio relativamente recente, nato con l’obiettivo di combinare il meglio di due mondi: la <strong>forza assoluta</strong> del <a href="powerlifting.html">powerlifting</a> 
+                e lo <strong>sviluppo muscolare</strong> del <a href="bodybuilding.html">bodybuilding</a>. Con l’avvento dei social media e la crescente popolarità di atleti come Larry Wheels, il termine ha guadagnato rapidamente attenzione, definendo uno stile di allenamento ideale per chi desidera ottenere un corpo esteticamente sviluppato ma al tempo stesso incredibilmente forte.
+            </p>
+            
+            <p>
+                A differenza del bodybuilding, il powerbuilding non si concentra esclusivamente sull’aspetto fisico, e a differenza del powerlifting, non punta solo sulla forza massimale. 
+                Non raggiungerai mai la massima forza possibile come un powerlifter puro, né la massima massa muscolare come un bodybuilder competitivo, ma otterrai un equilibrio che combina forza, estetica e funzionalità.
+            </p>
+            <p>
+                Questo approccio è perfetto per chi non vuole essere solo "apparentemente forte" come i bodybuilder, né "fortissimo ma con un fisico normale" come spesso accade nel powerlifting. È importante ricordare che muscoli grossi non sempre significano muscoli forti: il powerbuilding ti aiuta a unire questi due mondi in un programma bilanciato.
+            </p>
+        </section>
+        <section>
+            <h2>Esempi di Atleti Powerbuilding</h2>
+            <p>
+                Un esempio iconico LEGGENDARIO di powerbuilding è Larry Wheels, famoso per la sua incredibile forza e il suo fisico scolpito. Larry dimostra come sia possibile eccellere sia in termini di forza che di estetica, diventando una fonte di ispirazione per migliaia di atleti in tutto il mondo.
+            </p>
+            <div class="three-images-row">
+                <figure>
+                    <img src="images/squat.png" alt="Larry Wheels">
+                    <figcaption>Larry Wheels in allenamento</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/larryd.png" alt="Larry Wheels">
+                    <figcaption>Larry Wheels in allenamento</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/larryb.jpg" alt="Larry Wheels">
+                    <figcaption>Fisico di Larry Wheels</figcaption>
+                </figure>
+            </div>
+            <p>
+                Anche io, come atleta e appassionato di powerbuilding, ho trovato un equilibrio ideale tra forza ed estetica seguendo questo approccio. Ho scoperto che questo tipo di allenamento è perfetto per sviluppare un corpo funzionale e attraente al tempo stesso.
+            </p>
+            <div class="three-images-row">
+                <figure>
+                    <img src="images/med.jpg" alt="Mia foto 1">
+                    <figcaption>Durante il mio allenamento</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/mef.jpg" alt="Mia foto 2">
+                </figure>
+                <figure>
+                    <img src="images/meb.JPG" alt="Mia foto 3">
+                </figure>
+            </div>
+        </section>
+
+        <section class="navigation-buttons">
+            <a href="weightlifting.html" class="btn">← Pagina precedente</a>
+            <a href="index.html" class="btn">Home →</a>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 - Il tuo sito sul fitness</p>
+    </footer>
+
+    <script>
+        const currentLocation = window.location.pathname.split("/").pop(); 
+        const navLinks = document.querySelectorAll("nav ul li a");
+    
+        navLinks.forEach(link => {
+            if (link.getAttribute("href") === currentLocation) {
+                link.classList.add("active");
+            }
+        });
+    </script>
+</body>
+</html>

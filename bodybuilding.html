@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodybuilding - La tua guida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Bodybuilding: Costruire un fisico impressionante</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bodybuilding.html">Bodybuilding</a></li>
+            <li><a href="powerlifting.html">Powerlifting</a></li>
+            <li><a href="weightlifting.html">Weightlifting</a></li>
+            <li><a href="powerbuilding.html">Powerbuilding</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- Contenuto principale -->
+    <main>
+        <p>
+            Il <strong>bodybuilding</strong> è uno degli sport più famosi che si praticano in palestra. L'obiettivo principale è sviluppare i muscoli per ottenere un fisico simmetrico, proporzionato e scolpito. In questa disciplina non conta quanto sei forte, ma come appare il tuo corpo: l’estetica è la cosa più importante. Per ottenere questi risultati, serve un allenamento mirato, abbinato a una dieta ben curata e a un recupero adeguato.
+        </p>
+        <p>
+            Una cosa interessante del bodybuilding è che si concentra molto sui dettagli: definizione muscolare, proporzioni e armonia tra i vari gruppi muscolari. Esistono diverse categorie in questo sport, ognuna con le sue caratteristiche e regole, ma tutte hanno un principio in comune: costruire un fisico che colpisce per la sua estetica. Ecco le categorie principali:
+        </p>
+        <ul>
+            <li>
+                <strong>Men’s Physique</strong>: Fisico atletico e asciutto, con muscoli proporzionati e un aspetto "da spiaggia". I concorrenti si presentano sul palco con pose semplici, indossando pantaloncini più lunghi.
+            </li>
+            <img src="images/osama.png" width="200" height="250" alt="osama said">
+            <li>
+                <strong>Classic Physique</strong>: Una categoria ispirata ai fisici degli anni ’70, come quello di Arnold Schwarzenegger. Qui conta la simmetria, il volume muscolare non eccessivo e le pose classiche che esaltano le linee del corpo.
+            </li>
+            <img src="images/cbum.png" width="200" height="250" alt="Cbum">
+
+            <li>
+                <strong>Bodybuilding Open</strong>: È la categoria principale e più "estrema", dove i partecipanti puntano al massimo sviluppo muscolare possibile. Le pose sono più tecniche e mirano a mostrare ogni singolo muscolo del corpo.
+                <img src="images/cutler.jpg" width="200" height="250" alt="Jay cutler">
+                
+                
+            </li>
+        </ul>
+        <p>
+            Anche se ogni categoria ha pose e criteri diversi per le gare, la base dell’allenamento è sempre la stessa: esercizi con i pesi, programmi specifici per ogni gruppo muscolare e attenzione ai dettagli, come la simmetria e la definizione.
+        </p>
+        <p>
+            Il bodybuilding è molto popolare perché molte persone che iniziano ad andare in palestra lo fanno con l'obiettivo di migliorare il loro aspetto fisico. Ad esempio, c'è chi vuole sentirsi meglio con se stesso, apparire bene al mare o nei vestiti, oppure chi lo fa per lavori come il modeling. In tutti questi casi, l’allenamento dei bodybuilder diventa un punto di riferimento, perché è il metodo più efficace per costruire muscoli e migliorare il proprio fisico.
+        </p>
+        <img src="images/suit.jpg" width="200" height="250" alt="JModel">
+        <p>
+            Infine, indipendentemente dal livello a cui lo si pratica, il bodybuilding non è solo estetica. È anche una sfida personale che richiede disciplina, dedizione e costanza. È uno sport che ti insegna a prenderti cura del tuo corpo e ti aiuta a sviluppare un carattere forte, sia fisicamente che mentalmente.
+            <figure>
+                <img src="https://media.istockphoto.com/id/1758416916/it/foto/attrezzature-per-esercizi-in-una-palestra-moderna.jpg?s=2048x2048&w=is&k=20&c=EFxb2An9DcYXcrHC_xOFivl04ggDk3kvb68m-fSlRzI=" width="500" height="400"alt="Bodybuilder in posa">
+                
+            </figure>
+        </p>
+
+        <section class="navigation-buttons">
+            <a href="index.html" class="btn">← Pagina precedente</a>
+            <a href="powerlifting.html" class="btn">Pagina successiva →</a>
+        </section>
+        
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2025 - Il tuo sito sul fitness</p>
+    </footer>
+    <script>
+        const currentLocation = window.location.pathname.split("/").pop(); 
+        const navLinks = document.querySelectorAll("nav ul li a");
+    
+        navLinks.forEach(link => {
+            if (link.getAttribute("href") === currentLocation) {
+                link.classList.add("active");
+            }
+        });
+    </script>
+    
+</body>
+</html>

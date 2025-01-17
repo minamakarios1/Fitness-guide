@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    color: white;
+    background-color: #007BFF; 
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+main {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #444;
+}
+
+p1 {
+    line-height: 1.5;
+    color: white;
+}
+
+p {
+    line-height: 1.5;
+    color: #555;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;   
+    display: block; 
+    margin: 10px auto; 
+}
+
+
+.three-images-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.three-images-row figure {
+    flex: 1;
+    text-align: center;
+}
+
+.three-images-row img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.navigation-buttons .btn {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
